@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="shortcut icon" href="public/img/icon.svg" type="image/x-icon">
+  <title>Portfolio - Alejandro</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre Mi</a></li> 
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>¡Hola! Soy <span class="highlight">Alejandro</span></h1>
+          <p>Desarrollador Full Stack</p>
+          <div class="social-links">
+            <a href="https://github.com/AlejandroDev8" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/alejandrodev8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <p ><i class="fas fa-envelope"></i> alejandrodeveloper417@gmail.com</p>
+          </div>
+        </div>
+        <div class="profile-image">
+          <img src="/public/img/me.jpg" alt="Foto de perfil">
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h2>Sobre Mí</h2>
+      <div class="about-content">
+        <p>
+          Soy un desarrollador Full Stack, con experiencia en tecnologías en HTML, CSS, JavaScript, PHP, Laravel, MySQL, Git, entre otras.
+        </p>
+        <div class="skills">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">React</div>
+          <div class="skill">Laravel</div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Proyectos</h2>
+      <div class="bento-grid">
+          <div class="bento-item featured">
+              <h3>Tienda de Guitarras</h3>
+              <p>
+                Tienda de Guitarras donde podrás agregar al carrito, editar la cantidad del articulo o eliminarlo. Además cuenta con LocalStorage para no perder los productos en el carrito.
+              </p>
+              <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">LocalStorage</span>
+              </div>
+              <div class="project-links">
+                  <a href="https://github.com/AlejandroDev8/Guitar-LA-TS" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://guitar-la-ts.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+          </div>
+          <div class="bento-item">
+              <h3>Calculador de propinas y consumo</h3>
+              <p>
+                Calculador de propinas y consumo, el cual puede ser utilizado para algún establecimiento de comida o bebida.
+              </p>
+              <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">TypeScript</span>
+              </div>
+              <div class="project-links">
+                  <a href="https://github.com/AlejandroDev8/Tip-Calculator-TS" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://tip-calculator-ts.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+          </div>
+          <div class="bento-item">
+              <h3>Registro para Veterinaria</h3>
+              <p>
+                Registro de citas para una veterinaria, donde se puede agregar, eliminar y editar citas. Además cuenta con LocalStorage para no perder los datos.
+              </p>
+              <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">LocalStorage</span>
+              </div>
+              <div class="project-links">
+                  <a href="https://github.com/AlejandroDev8/Citas-Veterinaria" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://citas-registro-veterinaria.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+          </div>
+          <!-- <div class="bento-item wide">
+              <h3>Blog Platform</h3>
+              <p>Sistema de blog con editor rico de texto y gestión de contenidos.</p>
+              <div class="project-tech">
+                  <span class="tech-tag">Next.js</span>
+                  <span class="tech-tag">Prisma</span>
+                  <span class="tech-tag">PostgreSQL</span>
+              </div>
+              <div class="project-links">
+                  <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+          </div> -->
+      </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <div class="contact-content">
+        <p href="mailto:tu@email.com" class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>alejandrodeveloper417@gmail.com</span>
+        </p>
+        <a href="https://www.linkedin.com/in/alejandrodev8/" target="_blank" class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+        </a>
+    </div>
+</section>
+  </main>
+  <script src="/public/js/index.js"></script>
+</body>
+</html>
